@@ -61,6 +61,26 @@ background: #F2F2F2;
     font-size: 10px;
 }
 
+.greenBox {
+    background-color: #20B826;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    width: 10px;
+    height: 10px;
+    margin-left: 4%;
+  
+}
+
+.yellowBox {
+    background-color: #F2C94C;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    width: 10px;
+    height: 10px;
+    margin-left: 4%;
+}
 @media only screen and (min-width: 1390px) and (max-width: 2000px) {
     .f{
         width: 656px;
@@ -120,4 +140,37 @@ background: #F2F2F2;
     .b p{
         font-size: 12px;
     }
+
+    .taskDetails{
+        display: flex;
+        font-size: 12px;
+        text-align: left;
+        margin-left: 2%;
+        width: 100%;
+        justify-content: space-around;
+       
+    }
+
+    .todo{
+        width: 300px;
+    }
+
+    .my{
+        display: flex;
+        justify-content: space-between;
+        width: 60%;
+       
+
+    }
+    .myy{
+        display: flex;
+        justify-content: space-evenly;
+        width: 40%;
+        margin-left: 6%;
+    }
+
+    .completed{
+        
+    }
+    
 }
