@@ -1,10 +1,12 @@
-import s from "../taskContainer/taskContainer.module.css"
 import React, { useEffect, useState } from "react";
+import Pagination from "react-paginate";
+import s from "../taskContainer/taskContainer.module.css";
 
-function TaskContainer(){
-
-    //Fetching the tests data from the URL
+function TaskContainer() {
     const [tasks, setTasks] = useState([]);
+    const [currentPage, setCurrentPage] = useState(0);
+    const tasksPerPage = 8;
+
     useEffect(() => {
         fetch("https://6363c8f68a3337d9a2e7d805.mockapi.io/api/to-do")
             .then(response => response.json())
@@ -16,13 +18,11 @@ function TaskContainer(){
             });
     }, []);
 
-//Converting the date formart
     const formatDate = (dateString) => {
         const date = new Date(dateString);
         return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
     };
 
-  //changing the colors of the task priority   
     const getPriorityClass = (priority) => {
         switch (priority.toLowerCase()) {
             case 'high':
@@ -36,12 +36,20 @@ function TaskContainer(){
         }
     };
 
-    return(
+    const handlePageClick = ({ selected }) => {
+        setCurrentPage(selected);
+    };
+
+    //displaying the tasks in 8 pages
+    const offset = currentPage * tasksPerPage;
+    const currentPageTasks = tasks.slice(offset, offset + tasksPerPage);
+
+    return (
         <>
-        <div className={s.container}>
+            <div className={s.container}>
                 <p>Tasks</p>
                 <div className={s.insideContainer}>
-                    <div className={s.header}>
+                <div className={s.header}>
                         <div className={s.section1}>
                             <div><p>Status</p></div>
                             <div><p>Task name</p></div>
@@ -52,13 +60,12 @@ function TaskContainer(){
                             <div><p>Date</p></div>
                         </div>
                     </div>
-                     {/* Displaying the data in the URL into the container */}
-                    {tasks.map(task => (
+                    {currentPageTasks.map(task => (
                         <div key={task.id} className={s.task}>
+                           <div key={task.id} className={s.task}>
                             <div className={task.completed ? s.greenBox : s.yellowBox}>
                                 {task.completed ? '' : '-'}
-                            </div>
-                            {/* <div className={s.taskName}>{task.taskName}</div> */}
+                            </div>  
                             <div className={s.taskDetails}>
                                 <div className={s.details1}>
                                     <div className={s.completed}>{task.completed}</div>
@@ -72,9 +79,19 @@ function TaskContainer(){
                                 </div>
                             </div>
                         </div>
+                        </div>
                     ))}
                 </div>
             </div>
+            <Pagination
+            previousLabel={"<"}
+            nextLabel={">"}
+            pageCount={Math.ceil(tasks.length / tasksPerPage)}
+            onPageChange={handlePageClick}
+            containerClassName={s.pagination} 
+            activeClassName={s.active}
+            />
+
         </>
     );
 }
