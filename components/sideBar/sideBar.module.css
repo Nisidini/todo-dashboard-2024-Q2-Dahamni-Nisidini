@@ -1,14 +1,45 @@
-.sideBarSection{
-    width: 272px;
-    height: 900px;
-    gap: 0px;
-    opacity: 0px;
-    background-color: #33074F;
-   
-
-    
-
+.menuImg{
+    width: 25px;
+    margin-top: 18px;
+    margin-left: 10px;
 }
+
+.crossIcon{
+    width: 15px;
+    padding: 8px;
+    margin-top: 22px;
+    margin-left: 8px;
+}
+.sideBarSection {
+    width: 272px;
+    height: 100vh; /* Full height */
+    position: fixed; /* Fix it to the side of the screen */
+    top: 0;
+    left: -272px; /* Hide it initially */
+    background-color: #33074F;
+     /* Smooth transition */
+    z-index: 1000; /* Ensure it stays on top */
+}
+
+.sideBarSection.active {
+    left: 0; /* Slide in */
+}
+
+.heeader {
+    position: fixed; /* Fix the header */
+    top: 0;
+    left: 0;
+    z-index: 1001; /* Ensure it stays on top of the sidebar */
+}
+
+/* Adjust the box and its content visibility when the sidebar is active */
+.sideBarSection .box,
+.sideBarSection .box2 {
+    opacity: 1; /* Make them visible */
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* acmy soloution box */
 .box{
     width: 272px;
     height: 80px;
@@ -16,12 +47,11 @@
     opacity: 0px;
     background: #EBE6ED1A;
 
-
 }
 
 .box2{
    
-
+/* dashboard box */
 width: 80%;
 opacity: 0px;
 background: #EBE6ED1A;
@@ -57,5 +87,33 @@ padding: 8%;
 
 .y p{
     margin-left: 14%;
+}
+
+@media only screen and (min-width: 1390px) and (max-width: 2000px) {
+    /* main box */
+
+
+    .sideBarSection {
+        left: 0; /* Always visible on large screens */
+    }
+
+    .menuImg, .crossIcon {
+        display: none; /* Hide menu and cross icons */
+    }
+
+    .heeader {
+        display: none; /* Hide header section on large screens */
+    }
+    .sideBarSection{
+        width: 272px;
+        height: 900px;
+        gap: 0px;
+        opacity: 0px;
+        background-color: #33074F;   
+        position: relative;
+      
+    
+    }
+
 }
 

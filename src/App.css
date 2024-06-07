@@ -1,13 +1,18 @@
-.dashboard{
-    background-color: #FAFAFA;
-    height: 100vh;
-    margin: 0;
-}
 
-.f{
-    display: flex;
-}
+@media only screen and (min-width: 1390px) and (max-width: 2000px) {
+    .dashboard{
+        background-color: #FAFAFA;
+        height: 100vh;
+        margin: 0;
+    }
+    
+    .f{
+        display: flex;
+    }
+    
+    .tasks{
+        display: flex;
+    }
+    
 
-.tasks{
-    display: flex;
 }
