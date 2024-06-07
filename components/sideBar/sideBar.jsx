@@ -3,6 +3,8 @@ import s from "../sideBar/sideBar.module.css";
 import imagePic from "../../src/assets/image.png";
 import menuIcon from "../../src/assets/burger-bar.png";
 import crossIcon from "../../src/assets/cross.png";
+// import { connect } from 'react-redux';
+
 
 
 //change the state of the sideBar when its moblie 
