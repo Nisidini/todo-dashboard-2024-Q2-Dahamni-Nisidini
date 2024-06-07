@@ -83,6 +83,7 @@ function TaskContainer() {
                     ))}
                 </div>
             </div>
+{/* displaying the tasks 8 per page */}
             <Pagination
             previousLabel={"<"}
             nextLabel={">"}
@@ -91,7 +92,6 @@ function TaskContainer() {
             containerClassName={s.pagination} 
             activeClassName={s.active}
             />
-
         </>
     );
 }

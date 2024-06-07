@@ -1,44 +1,35 @@
-/* changed */
 
 .cotainer{
     margin-top: 6%;
     width: 270px;
-height: 120px;
-
-
-gap: 0px;
-border-radius: 8px 0px 0px 0px;
-border: 1px 0px 0px 0px;
-opacity: 100%;
-background-color: white;
-border-radius: 10px;
-padding: 20px;
-margin-left: 4%;
-border: 1px solid  #D0D5DD;
-
-
+    height: 120px;
+    border-radius: 8px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 4%;
+    border: 1px solid  #D0D5DD;
 }
-/* changed */
+
 .cotainer h1{
-   
-font-family: Inter;
-font-size: 20px;
-font-weight: 600;
-line-height: 32px;
-letter-spacing: -0.02em;
-text-align: left;
-
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: left;
 }
-/* changed */
+
 .cotainer p{
     font-family: Inter;
-font-size: 12px;
-font-weight: 400;
-line-height: 24px;
-text-align: left;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
 
 }
-/* changed */
+
 .cotainer a{
     color: rgb(206, 16, 149);
     font-size: 12px;
@@ -46,45 +37,18 @@ text-align: left;
 
 @media only screen and (min-width: 1390px) and (max-width: 2000px) {
     .cotainer{
-        margin-top: 6%;
         width: 1120px;
-    height: 100px;
-    
-    
-    gap: 0px;
-    border-radius: 8px 0px 0px 0px;
-    border: 1px 0px 0px 0px;
-    opacity: 100%;
-    background-color: white;
-    border-radius: 10px;
-    padding: 20px;
-    margin-left: 2%;
-    border: 1px solid  #D0D5DD;
-    
-    
+        height: 100px;
+        margin-left: 2%;
     }
     
     .cotainer h1{
-       
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 32px;
-    letter-spacing: -0.02em;
-    text-align: left;
-    
+        font-size: 24px;
     }
     
     .cotainer p{
-        font-family: Inter;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    
+        font-size: 14px;
     }
+   
     
-    .cotainer a{
-        color: rgb(206, 16, 149);
-    }
 }

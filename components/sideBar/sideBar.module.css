@@ -12,53 +12,49 @@
 }
 .sideBarSection {
     width: 272px;
-    height: 100vh; /* Full height */
-    position: fixed; /* Fix it to the side of the screen */
+    height: 100vh;
+    position: fixed; 
     top: 0;
-    left: -272px; /* Hide it initially */
+    left: -272px; 
     background-color: #33074F;
-     /* Smooth transition */
-    z-index: 1000; /* Ensure it stays on top */
+    z-index: 1000; 
+    
 }
 
 .sideBarSection.active {
-    left: 0; /* Slide in */
+    left: 0; 
 }
 
 .heeader {
-    position: fixed; /* Fix the header */
+    position: fixed;
     top: 0;
     left: 0;
-    z-index: 1001; /* Ensure it stays on top of the sidebar */
+    z-index: 1001;
 }
 
-/* Adjust the box and its content visibility when the sidebar is active */
 .sideBarSection .box,
 .sideBarSection .box2 {
-    opacity: 1; /* Make them visible */
+    opacity: 1; 
     transition: opacity 0.3s ease-in-out;
 }
 
-/* acmy soloution box */
+
 .MainContainer{
     width: 272px;
     height: 80px;
     gap: 0px;
     opacity: 0px;
     background: #8076841a;
-
 }
 
 .container{
-   
-/* dashboard box */
-width: 80%;
-opacity: 0px;
-background: #EBE6ED1A;
-margin-top: 40%;
-border-radius: 16px;
-padding: 4%;
-margin-left: 5%;
+    width: 80%;
+    opacity: 0px;
+    background: #EBE6ED1A;
+    margin-top: 40%;
+    border-radius: 16px;
+    padding: 4%;
+    margin-left: 5%;
 
 
 }
@@ -69,14 +65,14 @@ margin-left: 5%;
 }
 
 .heading{
-color: white;    
-font-family: Inter;
-font-size: 24px;
-font-weight: 600;
-line-height: 32px;
-letter-spacing: -0.02em;
-text-align: center;
-padding: 8%;
+    color: white;    
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    padding: 8%;
 
 }
 
@@ -90,19 +86,17 @@ padding: 8%;
 }
 
 @media only screen and (min-width: 1390px) and (max-width: 2000px) {
-    /* main box */
-
-
+  
     .sideBarSection {
-        left: 0; /* Always visible on large screens */
+        left: 0; 
     }
 
     .menuImg, .crossIcon {
-        display: none; /* Hide menu and cross icons */
+        display: none; 
     }
 
     .heeader {
-        display: none; /* Hide header section on large screens */
+        display: none; 
     }
     .sideBarSection{
         width: 272px;
@@ -111,8 +105,6 @@ padding: 8%;
         opacity: 0px;
         background-color: #33074F;   
         position: relative;
-      
-    
     }
 
 }

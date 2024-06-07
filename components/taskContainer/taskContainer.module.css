@@ -1,38 +1,27 @@
-/* changed */
 
 .container{
     width: 300px;
-height: 500px;
-top: 248px;
-left: 296px;
-gap: 10px;
-opacity: 100%;
-background-color: white;
-opacity: 100%;
-
-margin-left: 6%;
-margin-top: 4%;
-border-radius: 18px;
-border: 1px solid  #D0D5DD;
-
+    height: 500px;
+    gap: 10px;
+    opacity: 100%;
+    background-color: white;
+    opacity: 100%;
+    margin-left: 6%;
+    margin-top: 4%;
+    border-radius: 18px;
+    border: 1px solid  #D0D5DD;
 
 }
 
-/* changed */
 .insideContainer{
     width: 300px;
-height: 48px;
-top: 297px;
-left: 296px;
-gap: 0px;
-opacity: 0px;
-background: #F2F2F2;
-
+    height: 48px;
+    opacity: 0px;
+    background: #F2F2F2;
 }
-/* changed */
+
 .container P{
     padding: 10px;
-    font-family: Inter;
     font-weight: 600;
     font-size: 12px;
 }
@@ -48,7 +37,7 @@ background: #F2F2F2;
     display: flex;
    
 }
-/* changed */
+
 .section1 p{
     font-size: 10px;
 }
@@ -56,7 +45,7 @@ background: #F2F2F2;
 .section2{
     display: flex;
 }
-/* changed */
+
 .section2 p{
     font-size: 10px;
 }
@@ -68,6 +57,7 @@ background: #F2F2F2;
     justify-content: space-around;
    
 }
+
 .greenBox {
     background-color: #20B826;
     color: white;
@@ -105,7 +95,6 @@ background: #F2F2F2;
 
 .redBox {
     background-color: #EB57571A;
-    
     color: #EB5757;
     padding: 5px;
     border-radius: 14px;
@@ -118,9 +107,7 @@ background: #F2F2F2;
 }
 
 .blueBox {
-   
     background: #2F80ED1A;
-
     color: #2F80ED;
     padding: 5px;
     border-radius: 14px;
@@ -128,8 +115,6 @@ background: #F2F2F2;
     text-align: center;
     width: 24px;
     height: 22px;
-
-
     line-height: 22px;
     font-weight: 500px;
     
@@ -138,17 +123,12 @@ background: #F2F2F2;
 .mediumBox {
     color:#F2C94C ;
     background-color: #F2C94C1A;
-
     padding: 5px;
     border-radius: 14px;
     font-size: 10px;
     text-align: center;
     width: 47px;
-height: 22px;
-
-
-
-
+    height: 22px;
     line-height: 22px;
     font-weight: 500px;
 }
@@ -180,21 +160,9 @@ height: 22px;
     .container{
         width: 656px;
         height: 632px;
-    top: 248px;
-    left: 296px;
-    gap: 10px;
-    opacity: 100%;
-    background-color: white;
-    opacity: 100%;
-    
-    margin-left: 3%;
-    margin-top: 4%;
-    border-radius: 18px;
-    border: 1px solid  #D0D5DD;
-    
-    
-   
+        margin-left: 3%;
     }
+
     .task{
         margin-top: 2%;
     }
@@ -202,40 +170,15 @@ height: 22px;
    
     .insideContainer{
         width: 656px;
-    height: 48px;
-    top: 297px;
-    left: 296px;
-    gap: 0px;
-    opacity: 0px;
-    background: #F2F2F2;
-    
     
     }
     .container P{
         padding: 16px;
-        font-family: Inter;
-        font-weight: 600;
         font-size: 16px;
-    }
-    
-    .header{
-        display: flex;
-        width: 100%;
-        justify-content: space-between;
-       
-    }
-    
-    .section1{
-        display: flex;
-       
     }
     
     .section1 p{
         font-size: 12px;
-    }
-    
-    .section2{
-        display: flex;
     }
     
     .section2 p{
@@ -243,12 +186,8 @@ height: 22px;
     }
 
     .taskDetails{
-        display: flex;
-        font-size: 12px;
-        margin-left: 2%;
-        width: 100%;
-        justify-content: space-around;
        
+        font-size: 12px;  
     }
 
     .todo{
@@ -259,90 +198,12 @@ height: 22px;
         display: flex;
         justify-content: space-between;
         width: 60%;
-       
-
     }
+
     .details2{
         display: flex;
         justify-content: space-evenly;
         width: 40%;
         margin-left: 6%;
     }
-
-    .redBox {
-        background-color: #EB57571A;
-        
-        color: #EB5757;
-        padding: 5px;
-        border-radius: 14px;
-        font-size: 10px;
-        text-align: center;
-        width: 24px;
-        height: 22px;
-        line-height: 22px;
-        font-weight: 500px;
-    }
-    
-    .blueBox {
-       
-        background: #2F80ED1A;
-
-        color: #2F80ED;
-        padding: 5px;
-        border-radius: 14px;
-        font-size: 10px;
-        text-align: center;
-        width: 24px;
-        height: 22px;
-
-
-        line-height: 22px;
-        font-weight: 500px;
-        
-    }
-    
-    .mediumBox {
-        color:#F2C94C ;
-        background-color: #F2C94C1A;
-
-        padding: 5px;
-        border-radius: 14px;
-        font-size: 10px;
-        text-align: center;
-        width: 47px;
-height: 22px;
-
-
-
-
-        line-height: 22px;
-        font-weight: 500px;
-    }
-
-    .pagination {
-        display: flex;
-        justify-content: center;
-        margin-top: 20px;
-        list-style-type: none;
-        padding-bottom: 5%;
-    }
-    
-    .pagination a {
-        margin: 0 5px;
-        padding: 5px 10px;
-        border: 1px solid #ccc;
-        color: #333;
-        cursor: pointer;
-       
-    }
-    
-    .pagination .active a {
-        background-color: #007bff;
-        color: white;
-        border-color: #007bff;
-        
-    }
-   
-   
-    
 }
