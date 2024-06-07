@@ -12,28 +12,27 @@ function App() {
   return (
    <>
   
-    <div className="dashboard">
-      <div className='f'>
-        <div><SideBar/></div>
-        <div><NavBar/>
-        <Frame/>
-        <div  className='tasks'>
+    <div className="dashboard"> {/* Main container for the dashboard */}
+      <div className='Header'>  {/* Header and sideBar section */}
+        <div>
+          <SideBar/>
+        </div>
+        <div>
+          <NavBar/>
+          <Frame/>  {/* Welcome section */}
+          <div  className='tasks'>
+            <div>
+              <TaskContainer/> {/* contains details of all the tasks */}
+            </div>
           <div>
-          <TaskContainer/>
-          </div>
-
-          <div>
-            <TaskPriorities/>
-            <ActivityFeed/>
+            <TaskPriorities/> {/* contains the barChart for the tasks  */}
+            <ActivityFeed/> {/* containsall the activities  */}
           </div>
         </div>
-        </div>
-        
-      </div>
-      
-   
-      
+        </div>    
+      </div>   
     </div>
+    
    </>
   )
 }

@@ -1,6 +1,6 @@
 /* changed */
 
-.f{
+.cotainer{
     margin-top: 6%;
     width: 270px;
 height: 120px;
@@ -19,7 +19,7 @@ border: 1px solid  #D0D5DD;
 
 }
 /* changed */
-.f h1{
+.cotainer h1{
    
 font-family: Inter;
 font-size: 20px;
@@ -30,7 +30,7 @@ text-align: left;
 
 }
 /* changed */
-.f p{
+.cotainer p{
     font-family: Inter;
 font-size: 12px;
 font-weight: 400;
@@ -39,13 +39,13 @@ text-align: left;
 
 }
 /* changed */
-.f a{
+.cotainer a{
     color: rgb(206, 16, 149);
     font-size: 12px;
 }
 
 @media only screen and (min-width: 1390px) and (max-width: 2000px) {
-    .f{
+    .cotainer{
         margin-top: 6%;
         width: 1120px;
     height: 100px;
@@ -64,7 +64,7 @@ text-align: left;
     
     }
     
-    .f h1{
+    .cotainer h1{
        
     font-family: Inter;
     font-size: 24px;
@@ -75,7 +75,7 @@ text-align: left;
     
     }
     
-    .f p{
+    .cotainer p{
         font-family: Inter;
     font-size: 14px;
     font-weight: 400;
@@ -84,7 +84,7 @@ text-align: left;
     
     }
     
-    .f a{
+    .cotainer a{
         color: rgb(206, 16, 149);
     }
 }

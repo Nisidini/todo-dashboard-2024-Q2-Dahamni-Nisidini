@@ -3,7 +3,7 @@ import s from "../frame/frame.module.css"
 function Frame(){
     return(
         <>
-        <div className={s.f}>
+        <div className={s.cotainer}>
             <h1>Welcome back, John Doe</h1>
             <p>The end of the year is coming.Are you planning your performance
                 interviews?.You can do this super efficiently with Acmy

@@ -22,7 +22,7 @@ font-size: 18px;
 
 }
 /* changeed */
-.f{
+.container{
     width: 380px;
     background-color: white;
     height: 60px;
@@ -42,7 +42,7 @@ font-size: 18px;
   
 }
 /* changeed */
-.g{
+.section{
     display: flex;
     width: 880px;
    
@@ -50,7 +50,7 @@ font-size: 18px;
     
 }
 /* changeed */
-.g img{
+.section img{
     margin-top: 50%;
   
 }
@@ -62,7 +62,7 @@ font-size: 18px;
        padding-top: 2%;
     }
 
-    .f{
+    .container{
         width: 1168px; 
         height: 80px;
        
@@ -81,14 +81,14 @@ font-size: 18px;
       
     }
     
-    .g{
+    .section{
        
         justify-content: space-between;
         width: 110px;
         
     }
     
-    .g img{
+    .section img{
         margin-top: 80%;
     }
 }

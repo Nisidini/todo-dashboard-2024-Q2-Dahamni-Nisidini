@@ -40,16 +40,16 @@
 }
 
 /* acmy soloution box */
-.box{
+.MainContainer{
     width: 272px;
     height: 80px;
     gap: 0px;
     opacity: 0px;
-    background: #EBE6ED1A;
+    background: #8076841a;
 
 }
 
-.box2{
+.container{
    
 /* dashboard box */
 width: 80%;
@@ -62,7 +62,7 @@ margin-left: 5%;
 
 
 }
-.box2 p{
+.container p{
     color: white;
     text-align: center;
     font-family: Inter;
@@ -80,12 +80,12 @@ padding: 8%;
 
 }
 
-.y{
+.dashBoard{
     display: flex;
     
 }
 
-.y p{
+.dashBoard p{
     margin-left: 14%;
 }
 

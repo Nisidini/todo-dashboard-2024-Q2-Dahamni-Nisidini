@@ -4,6 +4,8 @@ import imagePic from "../../src/assets/image.png";
 import menuIcon from "../../src/assets/burger-bar.png";
 import crossIcon from "../../src/assets/cross.png";
 
+
+//change the state of the sideBar when its moblie 
 const SideBar = () => {
     const [sideBar, setSideBar] = useState(false);
     const handleSideBar = () => {
@@ -19,11 +21,11 @@ const SideBar = () => {
                 )}
             </div>
             <div className={`${s.sideBarSection} ${sideBar ? s.active : ""}`}>
-                <div className={s.box}>
+                <div className={s.MainContainer}>
                     <h1 className={s.heading}>Acmy Solutions</h1>
                 </div>
-                <div className={s.box2}>
-                    <div className={s.y}>
+                <div className={s.container}>
+                    <div className={s.dashBoard}>
                         <div>
                             <img src={imagePic} alt="image" />
                         </div>
