@@ -8,7 +8,7 @@ function SideBar(){
             <div className={s.box}><h1 className={s.heading}>Acmy Solutions</h1></div>
             <div className={s.box2}>
                  <div className={s.y}>
-                    <div><img/></div>
+                    <div><img src={ImagePic}/></div>
                     <div><p>DashBoard</p></div>
                  </div>
                  </div>

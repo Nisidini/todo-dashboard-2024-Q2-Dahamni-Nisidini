@@ -1,9 +1,10 @@
 .navBar{
     display: flex;
-    width: 100%;
-    justify-content: space-evenly;
-    box-shadow: 50%;
+    width: 1100px;
+    justify-content: space-between;
+   padding-left: 2%;
    padding-top: 2%;
+   
    
   
   
@@ -24,6 +25,7 @@ font-size: 18px;
     width: 1168px;
     background-color: white;
     height: 80px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
    
     /* left: 272px; */
     
@@ -34,5 +36,18 @@ font-size: 18px;
     height: 40px;
     background-color: rgba(183, 186, 186, 0.563);
     border-radius: 50%;
+   
+    
   
+}
+
+.g{
+    display: flex;
+    justify-content: space-between;
+    width: 110px;
+    
+}
+
+.g img{
+    margin-top: 80%;
 }
