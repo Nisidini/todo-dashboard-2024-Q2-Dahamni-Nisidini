@@ -1,0 +1,58 @@
+.f{
+    width: 656px;
+height: 632px;
+top: 248px;
+left: 296px;
+gap: 10px;
+opacity: 100%;
+background-color: white;
+opacity: 100%;
+
+margin-left: 3%;
+margin-top: 4%;
+border-radius: 18px;
+border: 1px solid  #D0D5DD;
+
+
+}
+
+.inside{
+    width: 656px;
+height: 48px;
+top: 297px;
+left: 296px;
+gap: 0px;
+opacity: 0px;
+background: #F2F2F2;
+
+}
+.f P{
+    padding: 16px;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.h{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+   
+}
+
+.a{
+    display: flex;
+   
+}
+
+.a p{
+    font-size: 12px;
+}
+
+.b{
+    display: flex;
+}
+
+.b p{
+    font-size: 12px;
+}

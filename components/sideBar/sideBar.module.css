@@ -1,0 +1,55 @@
+.sideBarSection{
+    width: 272px;
+    height: 900px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #33074F;
+   
+
+    
+
+}
+.box{
+    width: 272px;
+    height: 80px;
+    gap: 0px;
+    opacity: 0px;
+    background: #EBE6ED1A;
+
+
+}
+
+.box2{
+   
+
+width: 80%;
+opacity: 0px;
+background: #EBE6ED1A;
+margin-top: 40%;
+border-radius: 16px;
+padding: 4%;
+margin-left: 5%;
+
+
+}
+.box2 p{
+    color: white;
+    text-align: center;
+    font-family: Inter;
+}
+
+.heading{
+color: white;    
+font-family: Inter;
+font-size: 24px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: -0.02em;
+text-align: center;
+padding: 8%;
+
+}
+
+.y{
+    display: flex;
+}

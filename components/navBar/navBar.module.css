@@ -1,0 +1,38 @@
+.navBar{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    box-shadow: 50%;
+   padding-top: 2%;
+   
+  
+  
+
+}
+
+.navBar h1{
+    width: Hug (103px)px;
+ height: Hug (32px)px;
+top: 24px;
+left: 24px;
+gap: 8px;
+opacity: 0px;
+font-size: 18px;
+
+}
+.f{
+    width: 1168px;
+    background-color: white;
+    height: 80px;
+   
+    /* left: 272px; */
+    
+}
+
+.profilePic{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(183, 186, 186, 0.563);
+    border-radius: 50%;
+  
+}
